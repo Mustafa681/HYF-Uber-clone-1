@@ -1,0 +1,130 @@
+/* ---------iPad--------------  */
+@media (min-width: 768px) and (max-width: 1120px) {
+  // nav
+  .nav-item {
+    text-align: center;
+  }
+  // info
+  .intro-card {
+    display: block;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+// App's
+  .change-row {
+    display: flex;
+    justify-content: center;
+  }
+  .app-sec {
+    padding: 1rem !important;
+  }
+  .app-box {
+    width: 45%;
+    padding: 0 0.5rem !important;
+  }
+  .img-app {
+    max-width: 120px;
+    max-height: 120px;
+    margin: 8px 8px 8px 0 !important;
+  }
+  .sing-up-sec {
+    padding: 1rem !important;
+  }
+  
+}
+
+
+/*-------------- medium screen ------------*/
+@media (min-width: 576px) and (max-width: 768px) {
+  // nav
+  .nav-item {
+    text-align: center;
+  }
+  // info
+  .intro-card {
+    display: block;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .info-sec {
+    padding: 0 !important;
+  }
+  .info-row {
+    margin: 0.5rem !important;
+  }
+
+  // App's
+  .sing-up-sec {
+    padding: 0.2rem !important;
+  }
+  .sing-up-link {
+    margin: 0.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem !important;
+  }
+  .img-app {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .app-sec {
+    padding: 1rem 0 !important;
+  }
+  .app-register {
+    margin: 0.5rem !important;
+    padding: 0.5rem 0 !important;
+    text-align: center;
+  }
+  .app-box {
+    width: 100% !important;
+    margin: 0.5rem 2rem !important;
+  }
+
+}
+
+/*-------------- Mobile------------- */
+@media (min-width: 320px) and (max-width: 576px) {
+    // nav
+  .intro-card {
+    display: block;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  // info
+  .row {
+    margin: 0.5rem !important;
+  }
+
+  // App's
+
+  .img-app {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 5px 5px 5px 0 !important;
+  }
+
+  .app-sec {
+    padding: 0.5rem !important;
+  }
+  
+  .sing-up-sec {
+    padding: 0.2rem !important;
+  }
+  
+  .sing-up-link {
+    margin-right: 4rem;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .app-box {
+    margin: 0.5rem !important;
+  }
+.app-register {
+    text-align: center;
+    margin: 0.5rem !important;
+  }
+}
+

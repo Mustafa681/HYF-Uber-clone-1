@@ -1,0 +1,46 @@
+.nav-ul {
+  list-style: none;
+
+}
+.nav-item {
+  text-align: center;
+}
+.nav-link:hover {
+  font-weight: 600;
+background-color: rgba(252, 252, 252, 0.144);
+  border-radius: 25px;
+  color: white;
+}
+.nav-item,
+.sing-up-link,
+.app-link,
+.footer-items,
+.footer-media,
+.footer-link {
+  text-decoration: none;
+  
+}
+.item-active {
+  background-color: white;
+  border-radius: 25px;
+}
+.item-active-anchor,
+.app-link,
+.sing-up-link,
+.led{
+  color: black !important;
+}
+.li:hover {
+background-color: rgba(252, 252, 252, 0.144);
+  border-radius: 25px;
+  transition: 0.50s;
+}
+
+
+
+
+
+
+// .navbar{
+//   height: 70px;
+// }
