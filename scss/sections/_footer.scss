@@ -5,7 +5,7 @@
   transition: 0.2s;
 }
 .footer-items:hover {
-  color: #555 !important;
+  color: #555 ;
   transition: 0.2s;
 }
 .footer-media:hover {
@@ -17,17 +17,17 @@
 @media (min-width: 768px) and (max-width: 1120px) {
 
 .footer-sec {
-    padding: 2rem !important;
+    padding: 2rem ;
     font-size: 1.5rem;
   }
   .footer-nav-row {
-    padding: 0.5rem !important;
+    padding: 0.5rem ;
   }
   .media-sec {
     display: block;
   }
   .footer-media {
-    margin: 0 1rem !important;
+    margin: 0 1rem ;
     font-size: 1.8rem;
   }
   .media-box {
@@ -46,16 +46,16 @@
 
 
     .footer-sec {
-    padding: 1rem !important;
+    padding: 1rem ;
   }
   .footer-nav-row {
-    padding: 0.2rem !important;
+    padding: 0.2rem ;
   }
   .media-sec {
     display: block;
   }
   .footer-media {
-    margin: 0 0.5rem !important;
+    margin: 0 0.5rem ;
     font-size: 1.5rem;
   }
   .media-box {
@@ -76,14 +76,14 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 1rem !important;
+    padding-left: 1rem ;
   }
   .media-sec {
     display: flex;
-    justify-content: center !important;
+    justify-content: center ;
   }
   .footer-media {
-    margin: 0 0.3rem !important;
+    margin: 0 0.3rem ;
   }
   .media-box {
     text-align: center;
@@ -94,8 +94,8 @@
   }
   .term-box {
     display: flex;
-    justify-content: center !important;
-    margin: 0.5rem 0 !important;
+    justify-content: center ;
+    margin: 0.5rem 0 ;
   }
 }
 
