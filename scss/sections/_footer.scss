@@ -5,7 +5,7 @@
   transition: 0.2s;
 }
 .footer-items:hover {
-  color: #555 ;
+  color: #555 !important;
   transition: 0.2s;
 }
 .footer-media:hover {
@@ -16,18 +16,18 @@
 /* ---------iPad--------------  */
 @media (min-width: 768px) and (max-width: 1120px) {
 
-.footer-sec {
-    padding: 2rem ;
+.footer-section {
+    padding: 2rem !important;
     font-size: 1.5rem;
   }
   .footer-nav-row {
-    padding: 0.5rem ;
+    padding: 0.5rem !important;
   }
   .media-sec {
     display: block;
   }
   .footer-media {
-    margin: 0 1rem ;
+    margin: 0 1rem !important;
     font-size: 1.8rem;
   }
   .media-box {
@@ -45,17 +45,17 @@
 @media (min-width: 576px) and (max-width: 768px) {
 
 
-    .footer-sec {
-    padding: 1rem ;
+    .footer-section {
+    padding: 1rem !important;
   }
   .footer-nav-row {
-    padding: 0.2rem ;
+    padding: 0.2rem !important;
   }
   .media-sec {
     display: block;
   }
   .footer-media {
-    margin: 0 0.5rem ;
+    margin: 0 0.5rem !important;
     font-size: 1.5rem;
   }
   .media-box {
@@ -71,19 +71,20 @@
 /*-------------- Mobile------------- */
 @media (min-width: 320px) and (max-width: 576px) {
 
+  .footer-section{
+  padding: auto;
+  }
 
+  
   .footer-nav {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 1rem ;
+    padding-left: 1rem !important;
   }
-  .media-sec {
-    display: flex;
-    justify-content: center ;
-  }
+
   .footer-media {
-    margin: 0 0.3rem ;
+    margin: 0 0.3rem !important;
   }
   .media-box {
     text-align: center;
@@ -94,8 +95,8 @@
   }
   .term-box {
     display: flex;
-    justify-content: center ;
-    margin: 0.5rem 0 ;
+    justify-content: center !important;
+    margin: 0.5rem 0 !important;
   }
 }
 
