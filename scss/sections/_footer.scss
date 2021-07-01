@@ -2,11 +2,9 @@
 .footer-link:hover {
   border-bottom: 0.5px solid white;
   padding-bottom: 0.5rem;
-  transition: 0.2s;
 }
 .footer-items:hover {
   color: #555 !important;
-  transition: 0.2s;
 }
 .footer-media:hover {
   background-color: #555;
@@ -74,7 +72,6 @@
   .footer-section{
   padding: auto;
   }
-
   
   .footer-nav {
     display: flex;
